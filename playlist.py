@@ -4,25 +4,33 @@ class Playable:
     def __init__(self, title: str, dursion: int) -> None:
         self.title = title
         self.dursion = dursion
+    def describe(self) -> str:
+        return self.title
     def __str__(self) -> str:
         mins = self.dursion // 60
         secs = self.dursion % 60
-        return f"{self.title} {mins}:{secs:02}"
+        return f"{self.describe()} {mins}:{secs:02}"
 
 class Song(Playable):
     def __init__(self, title: str, dursion: int, artist: str) -> None:
         super().__init__(title, dursion)
         self.artist = artist
+    def describe(self) -> str:
+        return f"[{self.artist} - {self.title}]"
 
 class Podcast(Playable):
     def __init__(self, title: str, dursion: int, episode: int) -> None:
         super().__init__(title, dursion)
         self.episode = episode
+    def describe(self) -> str:
+        return f"[{self.title} v.{self.episode}]"
 
 class AudioBook(Playable):
     def __init__(self, title: str, dursion: int, chapter: str) -> None:
         super().__init__(title, dursion)
         self.chapter = chapter
+    def describe(self) -> str:
+        return f"{self.title}({self.chapter})"
 
 
 sound01 = Song("龍捲風", 212, "周杰倫")
