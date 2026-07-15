@@ -2,6 +2,8 @@
 * [電子版講義網址](https://doc.sagedaben.com/AIAE01)
 * [今天的程式碼網址](https://github.com/idben/AIAE01_20260715)
 * [進階課程中預計的練習作業](https://drive.google.com/drive/folders/1YchCreGLSYauUG5nWIZ_sUa6Zm5g2jel?usp=drive_link)
+* [ch1~4的答案](https://drive.google.com/drive/folders/19pZFwhkI44dW33LnXalCc3PNaq5VyRpl?usp=sharing)
+* [ch6更新](https://drive.google.com/drive/folders/19pZFwhkI44dW33LnXalCc3PNaq5VyRpl?usp=sharing)
 
 
 
